@@ -1,0 +1,8 @@
+
+Financial Analysis
+--------------------------------------------------------------
+Total Months     :86
+Total Net Value  :38382578
+Average Change   :532869
+Greatest Increase in profits:Feb-20121926159
+Greatest Decrease in profits: Sep-2013-2196167
