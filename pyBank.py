@@ -8,6 +8,7 @@ csvpath = os.path.join('..','Resources','budet_data.csv')
 
 # count no of rows in csv file for no of months.
 #Create Variables
+
 total_net_value = 0
 row_count = 1
 greatest_increase = ["", 0]
