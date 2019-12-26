@@ -51,7 +51,7 @@ print (f"Greatest Increase in profits: {greatest_increase[0]} {greatest_increase
 print (f"Greatest Decrease in profits: {Greatest_decrease[0]} {Greatest_decrease[1]}")         
 
 
-# to print to a output txt file
+# to print to a output txt file 
 with open('output.txt','a')as txtfile:
     txtfile.write("\nFinancial Analysis")  
     txtfile.write("\n--------------------------------------------------------------")
