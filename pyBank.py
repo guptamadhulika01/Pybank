@@ -13,6 +13,8 @@ row_count = 1
 greatest_increase = ["", 0]
 Greatest_decrease = ["", 999999999999999999999999999999]
 
+# open CSV files
+
 with open('budget_data.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter = ',')
     #row_count = sum(1 for row in csv_file)
