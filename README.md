@@ -24,3 +24,4 @@ Create a Python script that analyzes the records to calculate each of the follow
   ```
 
 * Print the analysis to the terminal and export a text file with the results.
+ Technologies Used : Python
