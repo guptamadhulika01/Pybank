@@ -1,3 +1,4 @@
+#Import Dependencies
 import os
 import csv
 
@@ -5,12 +6,12 @@ import csv
 csvpath = os.path.join('..','Resources','budet_data.csv')
 
 # count no of rows in csv file for no of months.
+#Create Variables
+
 total_net_value = 0
 row_count = 1
 greatest_increase = ["", 0]
 Greatest_decrease = ["", 999999999999999999999999999999]
-
-
 
 
 with open('budget_data.csv') as csv_file:
@@ -23,6 +24,7 @@ with open('budget_data.csv') as csv_file:
 
     total_net_value = total_net_value + int(first_row[1]) 
     
+    #Create For loop to read the all rows
    
     for row in csv_reader:
         sumOfBudgetValue = 0
@@ -39,7 +41,7 @@ with open('budget_data.csv') as csv_file:
            Greatest_decrease[0] = row[0]
            Greatest_decrease[1] = net_change
 
-
+# Print out results
 print ("Financial Analysis")
 print ("--------------------------------------------------------------")
 print(f"Total Months: {row_count}")
@@ -49,7 +51,7 @@ print (f"Greatest Increase in profits: {greatest_increase[0]} {greatest_increase
 print (f"Greatest Decrease in profits: {Greatest_decrease[0]} {Greatest_decrease[1]}")         
 
 
-# to print to a output txt file
+# to print to a output txt file 
 with open('output.txt','a')as txtfile:
     txtfile.write("\nFinancial Analysis")  
     txtfile.write("\n--------------------------------------------------------------")
