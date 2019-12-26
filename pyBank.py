@@ -24,6 +24,7 @@ with open('budget_data.csv') as csv_file:
 
     total_net_value = total_net_value + int(first_row[1]) 
     
+    #Create For loop to read the all rows
    
     for row in csv_reader:
         sumOfBudgetValue = 0
