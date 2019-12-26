@@ -2,7 +2,6 @@
 import os
 import csv
 
-
 # Path to collect data from the Resources folder
 csvpath = os.path.join('..','Resources','budet_data.csv')
 
