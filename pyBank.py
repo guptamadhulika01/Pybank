@@ -13,6 +13,7 @@ row_count = 1
 greatest_increase = ["", 0]
 Greatest_decrease = ["", 999999999999999999999999999999]
 
+# open CSV files
 
 with open('budget_data.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter = ',')
@@ -42,6 +43,7 @@ with open('budget_data.csv') as csv_file:
            Greatest_decrease[1] = net_change
 
 # Print out results
+
 print ("Financial Analysis")
 print ("--------------------------------------------------------------")
 print(f"Total Months: {row_count}")
@@ -69,5 +71,6 @@ with open('output.txt','a')as txtfile:
     txtfile.write(str(Greatest_decrease[1]))
     txtfile.write("\n--------------------------------------------------------------")
 txtfile.close()
+
 
 
