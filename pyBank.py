@@ -41,7 +41,7 @@ with open('budget_data.csv') as csv_file:
            Greatest_decrease[0] = row[0]
            Greatest_decrease[1] = net_change
 
-
+# Print out results
 print ("Financial Analysis")
 print ("--------------------------------------------------------------")
 print(f"Total Months: {row_count}")
